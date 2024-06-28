@@ -2,80 +2,75 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.endingLinesContainer {
     background-color: black;
 }
 
-.endingLine1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;    
-    font-family: Arial, Helvetica, sans-serif;
+.ending {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.ending p:first-child {
     font-weight: 500;
     font-size: 9.54px;
     line-height: 12.15px;
-    padding: 18px 5px;
+    margin: 1.5rem 0;
 }
 
-.endingLine2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; 
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+.contact {
     font-weight: 500;
     font-size: 15.62px;
-    line-height: 12.15px;  
-    padding: 10px 5px; 
+    line-height: 12.15px;
 }
 
-.endingLine3 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;  
-    font-family: Arial, Helvetica, sans-serif;
+.ending > a {
+    text-decoration: none;
     color: white;
-    font-weight: 500;
     font-size: 20.83px;
     line-height: 12.15px;
-    padding: 17px 5px;
+    font-weight: 500;
+    margin: 1.5rem 0;
 }
 
-.iconsContainer {
-    display: 
-}
-
-.icons { 
-    position: relative;
-    display: flex;
-    justify-content: right;
-    margin-right: 90px;
-}
-
-.iconsContainer>h2 {
+footer {
     color: white;
-    font-size: 15.62px;
-    line-height: 18.9px;
-    display: flex;
-    justify-content: left;
-    width: 69.88px;
-    height: 10.41px;
-    margin-top: 100px;
-    margin-left: 90px;
-    padding-bottom: 50px;
 }
 
-.footerLogo {
-    width: 69.88px;
-    height: 10.41px;
-    top: 1488.15px;
-    left: 43.39px;
-    margin-left: 90px;
-    margin-bottom: 30px;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
 }
+
+.footer > img {
+    width: 5rem;
+}
+
+.footer nav img {
+    width: 1.2rem;
+    margin-left: 4rem
+}
+
+footer nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    margin: 4rem 4rem;
+}
+
+.copyright img {
+    width: 6rem;
+    height: auto;
+}
+
+
