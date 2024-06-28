@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.endingLinesContainer {
+    background-color: black;
+}
+
+.endingLine1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 9.54px;
+    line-height: 12.15px;
+    padding: 18px 5px;
+}
+
+.endingLine2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 15.62px;
+    line-height: 12.15px;  
+    padding: 10px 5px; 
+}
+
+.endingLine3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 20.83px;
+    line-height: 12.15px;
+    padding: 17px 5px;
+}
+
+.iconsContainer {
+    display: 
+}
+
+.icons { 
+    position: relative;
+    display: flex;
+    justify-content: right;
+    margin-right: 90px;
+}
+
+.iconsContainer>h2 {
+    color: white;
+    font-size: 15.62px;
+    line-height: 18.9px;
+    display: flex;
+    justify-content: left;
+    width: 69.88px;
+    height: 10.41px;
+    margin-top: 100px;
+    margin-left: 90px;
+    padding-bottom: 50px;
+}
+
+.footerLogo {
+    width: 69.88px;
+    height: 10.41px;
+    top: 1488.15px;
+    left: 43.39px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
