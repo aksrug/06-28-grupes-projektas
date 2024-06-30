@@ -5,6 +5,231 @@
     background-color: black;
 }
 
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    margin: 4.5rem;
+}
+ 
+.main-header > p {
+    font-size: 1.3rem;
+}
+ 
+.header-links {
+    display: flex;  
+}
+ 
+.header-links nav ul {
+    display: flex;
+}
+ 
+.header-links nav ul li {
+    list-style: none;
+}
+ 
+.header-links nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    margin-right: 65px;
+}
+ 
+.pirma-sekcija {
+    display: flex;
+    margin: 0.5rem 4.5rem;
+    height: 20rem;
+}
+ 
+.left-side {
+    width: 65%;
+    margin-top: 2.5rem;
+}
+ 
+.pirma-photo {
+    width: 500px;
+    height: 400px;
+    margin: -6rem -3rem -1rem -2rem;
+}
+ 
+.left-side h1 {
+    font-size: 2rem;
+}
+ 
+.left-side h2 {
+    font-size: 3rem;
+    margin-top: 25px;
+}
+ 
+.left-side p {
+    font-size: 1.3rem;
+    margin: 1.7rem 15rem 0.5rem 0;
+}
+ 
+.top-button {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin-top: 2rem;
+    width: 180px;
+    height: 2.3rem;
+}
+ 
+.top-button:hover {
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+
+section {
+   
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    margin: 0;
+    min-height: 30vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    width:auto;
+}
+h2 {
+    width: auto;
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: left;
+    color: white;
+}
+ 
+.link {
+    color: black;
+    background-color: white;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-weight: 700;
+    text-decoration: none;
+    grid-column-start: 2;
+}
+
+
+
+
+.projects {
+    background-color: black;
+   
+}
+ 
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        'project project project'
+        'project project .';
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    gap: 1rem;
+    padding: 1rem;
+    margin-left: calc(50% - 650px / 2);
+}
+.project {
+    width: 200px;
+    height: 220px;
+    position: relative;
+ 
+}
+.text-projects {
+    color: #FAFBFF;
+    width: 4rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: calc(50% - 2rem);
+}
+img {
+    width: 172.24px;
+    height: 172.24px;
+    gap: 0px;
+    border-radius: 8.68px 0px 0px 0px;
+}
+.pro-btn {
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 5px;
+   width: 172.24px;
+   height: 172.24px;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 0;
+   background-color: rgba(0, 0, 0, 0.423);
+   border-radius: 13px;
+   gap: 10px;
+}
+ 
+.view {
+    background-color: #F9F5FF;
+    border: 0.87px solid #F6F6FE;
+    border-radius: 3.47px;
+   
+}
+ 
+.view:hover {
+    background-color: black;
+    color: #F6F6FE;
+    cursor: pointer;
+    }
+ 
+.git {
+    color: #F9F5FF;
+    border: 0.87px solid #F6F6FE;
+    background-color: transparent;
+    border-radius: 3.47px;
+}
+.git:hover {
+    background-color: black;
+    color: #F6F6FE;
+    cursor: pointer;
+ 
+}
+.text-app {
+    color: #FAFBFF;
+    line-height: 12.6px;
+    font-size: 12px;
+   
+}
+.kalbos-btn.con {
+    padding: 2px;
+}
+.kalbos-btn {
+    background-color: transparent;
+    font-size: 8px;
+    border: 0.87px solid #F6F6FE;
+    color: #F6F6FE;
+    border-radius: 3.47px;
+    padding: 2px 6px;
+}
+
+
+
+
+
+
+
+
 .ending {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
