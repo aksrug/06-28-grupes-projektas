@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
 }
-
-
+ 
+ 
 body {
-    background-color: black;
+    background-color: #0A0119;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,16 +14,17 @@ body {
 .main-header {
     display: flex;
     justify-content: space-between;
-    height: 5rem;
-    margin: 4.5rem;
+    height: 30px;
+    margin: 30px;
 }
  
-.main-header > p {
-    font-size: 1.3rem;
+.main-header>p {
+    font-size: 13.88px;
+    line-height: 16.8px;
 }
  
 .header-links {
-    display: flex;  
+    display: flex;
 }
  
 .header-links nav ul {
@@ -37,79 +37,115 @@ body {
  
 .header-links nav ul li a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 9.54px;
+    line-height: 11.55px;
     color: white;
     margin-right: 65px;
 }
  
 .pirma-sekcija {
+    margin-left: calc(50% - 537.99px / 2);
     display: flex;
-    margin: 0.5rem 4.5rem;
-    height: 20rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 277.67px;
+    width: 537.99px;
 }
  
 .left-side {
-    width: 65%;
-    margin-top: 2.5rem;
+    width: 263.79px;
+    width: 263.79px;
+    height: 138.12px;
+}
+ 
+.right-side {
+    width: 225.17px;
+    height: 277.67px;
+ 
 }
  
 .pirma-photo {
-    width: 500px;
-    height: 400px;
-    margin: -6rem -3rem -1rem -2rem;
+    width: 225.17px;
+    height: 277.67px;
+   
 }
  
 .left-side h1 {
-    font-size: 2rem;
+    font-size: 13.88px;
 }
  
 .left-side h2 {
-    font-size: 3rem;
-    margin-top: 25px;
+    font-size: 20.83px;
+    padding-top: 10px;
 }
  
 .left-side p {
-    font-size: 1.3rem;
-    margin: 1.7rem 15rem 0.5rem 0;
+    font-size: 7.81px;
+    padding-top: 10px;
+    width: 263.79px;
+    height: 37px;
 }
  
 .top-button {
     background-color: white;
-    color: black;
-    border-radius: 20px;
+    color: #0A0119;
+    border-radius: 8.68px;
     margin-top: 2rem;
-    width: 180px;
-    height: 2.3rem;
+    width: 80.24px;
+    font-size: 8.68px;
+    padding: 5.21px 15.62px;
 }
  
 .top-button:hover {
-    background-color: wheat;
     color: black;
     cursor: pointer;
 }
-
-section {
-   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.juliaus-darbas {
+    padding-top: 50px;
+}
+ 
+ 
+ 
+.juliaus-con {
+ 
     display: grid;
-    grid-template-columns:1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     min-height: 30vh;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:black;
-    width:auto;
+    background-color: #0A0119;
+    width: 537.99px;
+    height: 186.18px;
+    margin-left: calc(50% - 537.99px / 2);
+ 
 }
-h2 {
+ 
+.juliaus-text {
     width: auto;
     color: white;
     text-align: center;
-    background-color: black;
+    background-color: #0A0119;
     margin: 0;
+    font-size: 15.62px;
     padding-bottom: 60px;
     font-family: Arial, Helvetica, sans-serif;
 }
+ 
 p {
     text-align: left;
     color: white;
+    font-size: 7.81px;
+    line-height: 12.15px;
 }
  
 .link {
@@ -117,19 +153,23 @@ p {
     background-color: white;
     margin-right: auto;
     margin-bottom: 30px;
-    border-radius: 30px;
-    padding: 15px 50px;
+    border-radius: 8.68px;
+    padding: 5.21px 15.62px;
+    font-size: 8.68px;
     font-weight: 700;
     text-decoration: none;
     grid-column-start: 2;
 }
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 .projects {
-    background-color: black;
-   
+    background-color: #0A0119;
+    padding-top: 50px;
 }
  
 .projects-container {
@@ -140,10 +180,10 @@ p {
         'project project .';
     justify-content: center;
     align-items: center;
-    width: 650px;
-    gap: 1rem;
-    padding: 1rem;
-    margin-left: calc(50% - 650px / 2);
+    width: 535.82px;
+ 
+    padding: 20px 0px 0 20px;
+    margin-left: calc(33.33% - 535.82px / 3);
 }
 .project {
     width: 200px;
@@ -153,6 +193,8 @@ p {
 }
 .text-projects {
     color: #FAFBFF;
+    font-size: 15.62px;
+    font-weight: 500px;
     width: 4rem;
     height: 0.9rem;
     line-height: 0.9rem;
@@ -180,6 +222,7 @@ img {
    gap: 10px;
 }
  
+ 
 .view {
     background-color: #F9F5FF;
     border: 0.87px solid #F6F6FE;
@@ -188,7 +231,7 @@ img {
 }
  
 .view:hover {
-    background-color: black;
+    background-color: #0A0119;
     color: #F6F6FE;
     cursor: pointer;
     }
@@ -200,7 +243,7 @@ img {
     border-radius: 3.47px;
 }
 .git:hover {
-    background-color: black;
+    background-color: #0A0119;
     color: #F6F6FE;
     cursor: pointer;
  
@@ -222,14 +265,7 @@ img {
     border-radius: 3.47px;
     padding: 2px 6px;
 }
-
-
-
-
-
-
-
-
+ 
 .ending {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -239,21 +275,21 @@ img {
     align-items: center;
     margin: 5rem 0;
 }
-
+ 
 .ending p:first-child {
     font-weight: 500;
     font-size: 9.54px;
     line-height: 12.15px;
     margin: 1.5rem 0;
 }
-
+ 
 .contact {
     font-weight: 500;
     font-size: 15.62px;
     line-height: 12.15px;
 }
-
-.ending > a {
+ 
+.ending>a {
     text-decoration: none;
     color: white;
     font-size: 20.83px;
@@ -261,41 +297,40 @@ img {
     font-weight: 500;
     margin: 1.5rem 0;
 }
-
+ 
 footer {
     color: white;
+    padding: 20px;
 }
-
+ 
 .footer {
     display: flex;
     justify-content: space-between;
     margin: 0 4rem;
 }
-
-.footer > img {
+ 
+.footer>img {
     width: 5rem;
 }
-
+ 
 .footer nav img {
     width: 1.2rem;
     margin-left: 4rem
 }
-
+ 
 footer nav {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+ 
 .copyright {
     display: flex;
-    margin: 4rem 4rem;
+    margin: 0;
 }
-
+ 
 .copyright img {
     width: 6rem;
-    height: auto;
+    height: 20px;
 }
-
-
