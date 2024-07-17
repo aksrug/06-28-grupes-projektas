@@ -19,9 +19,14 @@ body {
 }
  
 .main-header>p {
+    display: flex;
+    justify-content: space-between;
     font-size: 13.88px;
     line-height: 16.8px;
+    margin: 0 30rem;
+    margin-top: 2px;
 }
+
  
 .header-links {
     display: flex;
@@ -40,9 +45,13 @@ body {
     font-size: 9.54px;
     line-height: 11.55px;
     color: white;
-    margin-right: 65px;
+    margin-right: 6rem;
 }
  
+
+
+
+
 .pirma-sekcija {
     margin-left: calc(50% - 537.99px / 2);
     display: flex;
@@ -92,28 +101,30 @@ body {
     color: #0A0119;
     border-radius: 8.68px;
     margin-top: 2rem;
-    width: 80.24px;
     font-size: 8.68px;
+    font-weight: 700;
     padding: 5.21px 15.62px;
+    text-decoration: none; 
+    grid-column-start: 2;
 }
+
  
 .top-button:hover {
     color: black;
     cursor: pointer;
 }
  
- 
- 
- 
- 
+
+
+
+
+
  
  
 .juliaus-darbas {
     padding-top: 50px;
 }
- 
- 
- 
+  
 .juliaus-con {
  
     display: grid;
@@ -160,6 +171,8 @@ p {
     text-decoration: none;
     grid-column-start: 2;
 }
+
+
  
  
  
@@ -169,7 +182,7 @@ p {
  
 .projects {
     background-color: #0A0119;
-    padding-top: 50px;
+    padding-top: 50px; 
 }
  
 .projects-container {
@@ -182,13 +195,16 @@ p {
     align-items: center;
     width: 535.82px;
  
-    padding: 20px 0px 0 20px;
+    padding: 20px 0px 0 370px;
     margin-left: calc(33.33% - 535.82px / 3);
 }
+
 .project {
     width: 200px;
     height: 220px;
     position: relative;
+    margin-bottom: 25px;
+    margin-top: 20px;
  
 }
 .text-projects {
@@ -306,7 +322,7 @@ footer {
 .footer {
     display: flex;
     justify-content: space-between;
-    margin: 0 4rem;
+    margin: 0 28rem;
 }
  
 .footer>img {
@@ -315,7 +331,7 @@ footer {
  
 .footer nav img {
     width: 1.2rem;
-    margin-left: 4rem
+    margin-left: 3rem
 }
  
 footer nav {
@@ -327,7 +343,7 @@ footer nav {
  
 .copyright {
     display: flex;
-    margin: 0;
+    margin: 0 27.5rem;
 }
  
 .copyright img {
